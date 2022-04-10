@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingTop="30dp">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logoo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Votre score"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"/>
+    <com.github.lzyzsd.circleprogress.DonutProgress
+
+    android:id="@+id/donut_progress"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        app:donut_text_color="#3AB33F"
+        app:donut_finished_color="#FF5722"
+        app:donut_unfinished_color="@color/purple_700"
+        app:donut_unfinished_stroke_width="15dp"
+        app:donut_finished_stroke_width="15dp"
+        tools:ignore="MissingClass" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="LOGOUT"
+            android:backgroundTint="@color/purple_500"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="SIGNUP"
+            android:backgroundTint="@color/purple_500"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:paddingTop="80dp" >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-5dp"
+        app:srcCompat="@drawable/logoo"
+        />
+    <EditText
+        android:id="@+id/Name2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:drawableStart="@drawable/ic_person"
+        android:ems="10"
+        android:hint="name"
+        android:inputType="text"
+        android:textColorHint="#5E5D60"
+        android:textColor="@color/black"
+        />
+    <EditText
+        android:id="@+id/Email2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:drawableStart="@drawable/ic_email"
+        android:ems="10"
+        android:hint="email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#887B7B"
+        android:textColor="#4C4848"/>
+    <EditText
+        android:id="@+id/Password2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="password"
+        android:drawableStart="@drawable/ic_password"
+        android:textColorHint="#918585"
+        android:textColor="@color/black"/>
+    <EditText
+        android:id="@+id/Password3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Conferme le Mot Passe"
+        android:drawableStart="@drawable/ic_password"
+        android:textColorHint="#837979"
+        android:textColor="#100F0F"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:backgroundTint="@color/purple_500"
+        android:text="Register"
+        android:textColor="@color/white"
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+</LinearLayout>
